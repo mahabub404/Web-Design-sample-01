@@ -1,0 +1,434 @@
+
+
+
+*{
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.row{
+  padding-left: 0;
+  padding-right: 0;
+  width: 99.99% ;
+  margin: 0 auto;
+}
+.nav{
+  padding: 30px 0;
+}
+.container-fluid2{
+  width: 92% ;
+  margin: 0 auto;
+  overflow: hidden;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+/********************************************
+************** Header Area CSS **************
+*********************************************/
+.header-area{
+  width: 100%;
+  background-color: #FFFFFF;
+  background-image: url(./images/header-bg.png);
+  background-position: top 0 left 55%;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-attachment: local;
+  height: auto;
+  min-height: 800px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+.header-area h2{
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+.header-area h4{
+  color : #e2e2e2;
+
+  margin-top: 180px;
+}
+.logo-area{
+  overflow: hidden;
+}
+.logo-area .image-logo{
+  width: 180px;
+  height: auto;
+}
+.btn-hd{
+  border-radius: 0;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  padding: 8px 18px;
+  border-width: 2px;
+}
+.fnt{
+  text-align: left;
+  display: inline-block;
+  margin-left: 5px;
+}
+.fnt a{
+  text-decoration: none;
+  display: inline;
+  margin: 0 2px;
+}
+.fnt i{
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+.fnt i:hover{
+  color: #8948ED;
+  background-color: #FFFFFF;
+}
+.content-hd{
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+.scroll{
+  margin-top: 80px;
+  display: inline-block;
+  height: 100px;
+}
+/********************************************
+*************** Work Area CSS **************&
+*********************************************/
+.work{
+    width: 100%;
+    color: #FFFFFF;
+    padding: 50px 0;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+}
+.r{
+  width: 100% ;
+  overflow: hidden;
+  text-align: center;
+}
+.w-p{
+  padding-left: 0;
+  padding-right: 0;
+  color: #000000;
+  text-align: center;
+  overflow: hidden;
+}
+.w-p img{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.w-p h3, .w-p p{
+  text-align: center;
+}
+.text{
+  overflow: hidden;
+  display: inline-block;
+  width: 90% ;
+  margin: 0 auto;
+}
+.work h2{
+  color: #2d2c2c;
+  margin-bottom: 20px;
+}
+.work h4{
+  color: #434141;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+}
+h3{
+  color: #2d2c2c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.work p{
+  color: #434141;
+}
+
+
+
+/********************************************
+************* Portfolio Area CSS ************
+*********************************************/
+.portfolio{
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+.tab{
+  margin: 80px 0 20px 0;
+  list-style: none;
+}
+.tab .active a{
+  border-bottom: 1px solid #434141;
+}
+.tab li a{
+  color: #2d2c2c;
+  text-align: center;
+  padding-bottom: 12px;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid transparent;
+}
+.tab a:hover{
+  border-bottom: 1px solid #434141;
+}
+.portfolio h2{
+  color: #2d2c2c;
+  margin-bottom: 30px;
+}
+.portfolio h4{
+  color: #434141;
+  line-height: 1.4em;
+  font-size: 1rem;
+}
+.pimg{
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+.col-sm-12,
+.col-md-6,
+.col-md-4,
+.col-md-8,
+.col-md-12,
+.col-lg-4,
+.col-lg-8,
+.col-lg-12,
+.col-xl-6,
+.col-xl-12,
+.col-xl-4{
+  padding-left: 0;
+  padding-right: 0;
+}
+/********************************************
+*************** Client Area CSS ***************
+*********************************************/
+.client{
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+.client h2{
+  color: #2d2c2c;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.client h4{
+  margin-top: 40px;
+  color: #434141;
+  line-height: 1.4em;
+  font-size: 1rem;
+}
+  /********************************************
+  ************* Contact Area CSS **************
+  *********************************************/
+.form{
+    background-image: url(./images/name.jpg);
+    background-repeat: no-repeat;
+    background-position: top 10% center;
+    background-size: cover;
+    background-attachment: local;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+    padding: 250px 0;
+    overflow: hidden;
+ }
+ .overlay-contact{
+   position: absolute;
+   top: 0; left:0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(24, 44, 97, 0.85);
+   z-index: -9999;
+ }
+.contact-form{
+  width: 60% ;
+  margin-right: 70px;
+  padding: 100px 0;
+}
+.f-right{
+  float: right;
+}
+.br-rad-0{
+  border-radius: 0;
+}
+.hinp{
+  height: 180px;
+  width: 100%;
+}
+.submit{
+  padding: 8px 45px;
+  border: none;
+}
+.pb{
+  padding: 10px;
+}
+input::placeholder{
+  color: #FFFFFF;
+}
+::webkit-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1.0; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FFFFFF;
+}
+:-moz-input-placeholder{
+	color: #FFFFFF;
+}
+::-moz-input-placeholder{
+	color: #FFFFFF;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #FFFFFF;
+}
+.address{
+  overflow: hidden;
+}
+.address h2{
+  color: #2d2c2c;
+  margin: 30px 0 30px 20px;
+}
+.address h3{
+  color: #2d2c2c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: -8px;
+}
+.address h4{
+  color: #434141;
+  line-height: 1.4em;
+  font-size: 1rem;
+  margin: 15px 0 15px 20px;
+}
+.address-info{
+  width: 80%;
+  margin-left: 5%;
+}
+.address ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+.address ul li{
+  display: block;
+}
+.address ul li a{
+  display: inline-block;
+  padding: 15px 0px;
+  color: #2d2c2c;
+}
+.address ul li:hover a{
+  color: #0069D9;
+  text-decoration: none;
+}
+.address ul li a i{
+  font-size: 16px;
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+}
+.address ul li:hover a i{
+  background-color: #0069D9;
+  border: 1px solid #0069D9;
+  color: #FFFFFF;
+}
+.ad-t{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+/********************************************
+************* Footer Area CSS **************
+*********************************************/
+.footer-area{
+  overflow: hidden;
+}
+.footer-l{
+  float: left;
+  overflow: hidden;
+  padding: 50px 0;
+  text-align: right;
+}
+.f-rr{
+  display: inline-block;
+  overflow: hidden;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+.f-logo img{
+  width: 150px;
+  height: auto;
+  display: inline-block;
+  margin-right: 60px;
+}
+.f-p{
+  display: inline-block;
+}
+.footer-r{
+  float: right;
+  overflow: hidden;
+  padding: 50px 0;
+  background-color: #dff9fb;
+}
+.f-menu{
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.footer-r ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+.footer-r ul li{
+  float: left;
+  overflow: hidden;
+  margin: 0 5px;
+}
+.footer-r ul li a{
+  font-size: 18px;
+  color: gray;
+  padding: 8px 8px;
+}
+.footer-r ul li a:hover{
+  color: #0069D9;
+  text-decoration: none;
+}
+.footer-r ul li a i{}
